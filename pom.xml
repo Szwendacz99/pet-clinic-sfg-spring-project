@@ -55,7 +55,7 @@
 
     <scm>
         <developerConnection>
-            scm:git:https://github.com/Szwendacz99/pet-clinic-sfg-spring-project.git
+            scm:git:git@github.com:Szwendacz99/pet-clinic-sfg-spring-project.git
         </developerConnection>
       <tag>pet-clinic-0.0.1</tag>
   </scm>
