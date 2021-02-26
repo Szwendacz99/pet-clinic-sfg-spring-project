@@ -5,6 +5,22 @@
     <title>Vets index page</title>
 </head>
 <body>
-    <h1 th:text="${title}">Owners</h1>
+<h1 th:text="${title}">Owners</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>First name</th>
+        <th>Last name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}">seg</td>
+        <td th:text="${owner.firstName}">gseg</td>
+        <td th:text="${owner.lastName}">gseg</td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
