@@ -31,11 +31,12 @@ public class OwnerServiceMap extends AbstractServiceMap<Owner,Long> implements O
 
     @Override
     public Owner save(Owner object) {
-        return super.save(object.getId(), object);
+        return super.save( object);
     }
 
     @Override
     public Owner findByLastName(String lastName) {
         return null;
     }
+
 }
